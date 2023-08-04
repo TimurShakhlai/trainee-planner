@@ -70,4 +70,7 @@ group :test do
 
   # Strategies for cleaning your database [https://github.com/DatabaseCleaner/database_cleaner]
   gem 'database_cleaner-active_record'
+
+  # Testing framework [https://github.com/rspec/rspec-rails]
+  gem 'rspec-rails', '~> 6.0.0'
 end
