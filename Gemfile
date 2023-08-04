@@ -67,4 +67,7 @@ end
 group :test do
   # Helps you test web applications [https://github.com/teamcapybara/capybara]
   gem 'capybara'
+
+  # Strategies for cleaning your database [https://github.com/DatabaseCleaner/database_cleaner]
+  gem 'database_cleaner-active_record'
 end
