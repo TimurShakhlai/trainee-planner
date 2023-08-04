@@ -76,4 +76,7 @@ group :test do
 
   # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://github.com/thoughtbot/shoulda-matchers]
   gem 'shoulda-matchers', '~> 5.0'
+
+  # Code coverage analysis tool [https://github.com/simplecov-ruby/simplecov]
+  gem 'simplecov', require: false, group: :test
 end
