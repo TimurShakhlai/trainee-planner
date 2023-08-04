@@ -64,3 +64,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Helps you test web applications [https://github.com/teamcapybara/capybara]
+  gem 'capybara'
+end
