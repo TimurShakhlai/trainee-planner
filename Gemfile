@@ -73,4 +73,7 @@ group :test do
 
   # Testing framework [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails', '~> 6.0.0'
+
+  # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://github.com/thoughtbot/shoulda-matchers]
+  gem 'shoulda-matchers', '~> 5.0'
 end
