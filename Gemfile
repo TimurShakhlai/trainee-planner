@@ -64,3 +64,22 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Helps you test web applications [https://github.com/teamcapybara/capybara]
+  gem 'capybara'
+
+  # Strategies for cleaning your database [https://github.com/DatabaseCleaner/database_cleaner]
+  gem 'database_cleaner-active_record'
+
+  # Testing framework [https://github.com/rspec/rspec-rails]
+  gem 'rspec-rails', '~> 6.0.0'
+
+  # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://github.com/thoughtbot/shoulda-matchers]
+  gem 'shoulda-matchers', '~> 5.0'
+
+  # Code coverage analysis tool [https://github.com/simplecov-ruby/simplecov]
+  gem 'simplecov', require: false, group: :test
+
+  # Brings back assigns to your controller tests [https://github.com/rails/rails-controller-testing]
+  gem 'rails-controller-testing'
+end
