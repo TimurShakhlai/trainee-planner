@@ -79,4 +79,7 @@ group :test do
 
   # Code coverage analysis tool [https://github.com/simplecov-ruby/simplecov]
   gem 'simplecov', require: false, group: :test
+
+  # Brings back assigns to your controller tests [https://github.com/rails/rails-controller-testing]
+  gem 'rails-controller-testing'
 end
