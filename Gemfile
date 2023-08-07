@@ -69,6 +69,9 @@ group :development, :test do
 
   # A RuboCop extension for Rails [https://github.com/rubocop/rubocop-rails]
   gem 'rubocop-rails', require: false
+
+  # A RuboCop extension for RSpec [https://github.com/rubocop/rubocop-rspec]
+  gem 'rubocop-rspec', require: false
 end
 
 group :development do
