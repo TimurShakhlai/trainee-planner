@@ -33,5 +33,14 @@ module TraineePlanner
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Path to translation files
+    config.i18n.load_path += Dir[Rails.root.join('lib', 'locale', '*.{rb,yml}')]
+
+    # App's locales
+    config.i18n.available_locales = %i[en ru]
+
+    # Default locale
+    config.i18n.default_locale = :en
   end
 end
