@@ -66,6 +66,9 @@ group :development, :test do
 
   # Ruby static code analyzer [https://github.com/rubocop/rubocop]
   gem 'rubocop', '~> 1.55', require: false
+
+  # A RuboCop extension for Rails [https://github.com/rubocop/rubocop-rails]
+  gem 'rubocop-rails', require: false
 end
 
 group :development do
