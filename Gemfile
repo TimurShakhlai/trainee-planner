@@ -120,4 +120,7 @@ group :test do
 
   # Encapsulating a variety of tools and libraries enabling web browser automation [https://github.com/SeleniumHQ/selenium]
   gem 'selenium-webdriver', '~> 4.4'
+
+  # Run Selenium tests more easily [https://github.com/titusfortner/webdrivers]
+  gem 'webdrivers', '~> 5.0', require: false
 end
