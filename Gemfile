@@ -80,6 +80,9 @@ group :development, :test do
 
   # Provides Rails integration for factory_bot [https://github.com/thoughtbot/factory_bot_rails]
   gem 'factory_bot_rails'
+
+  # Generate fake data [https://github.com/faker-ruby/faker]
+  gem 'faker', '~> 3.2'
 end
 
 group :development do
