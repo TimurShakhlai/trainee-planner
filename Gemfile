@@ -57,6 +57,9 @@ gem 'sass-rails'
 # Centralization of locale data collection for Ruby on Rails [https://github.com/svenfuchs/rails-i18n]
 gem 'rails-i18n', '~> 7.0.0'
 
+# Authentication solution [https://github.com/heartcombo/devise]
+gem "devise"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
