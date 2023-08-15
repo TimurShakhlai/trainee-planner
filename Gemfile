@@ -77,6 +77,9 @@ group :development, :test do
 
   # Add simple validation for active storage [https://github.com/igorkasyanchuk/active_storage_validations]
   gem 'active_storage_validations'
+
+  # Provides Rails integration for factory_bot [https://github.com/thoughtbot/factory_bot_rails]
+  gem 'factory_bot_rails'
 end
 
 group :development do
