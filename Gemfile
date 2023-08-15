@@ -94,6 +94,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Runtime developer console and IRB alternative [https://github.com/pry/pry]
+  gem 'pry'
 end
 
 group :test do
