@@ -74,6 +74,9 @@ group :development, :test do
 
   # A RuboCop extension for RSpec [https://github.com/rubocop/rubocop-rspec]
   gem 'rubocop-rspec', require: false
+
+  # Add simple validation for active storage [https://github.com/igorkasyanchuk/active_storage_validations]
+  gem 'active_storage_validations'
 end
 
 group :development do
