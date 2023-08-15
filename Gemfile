@@ -48,7 +48,7 @@ gem 'bootsnap', require: false
 # gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 # Bootstrap framework [https://github.com/twbs/bootstrap-rubygem]
 gem 'bootstrap', '~> 5.3.0.alpha3'
@@ -74,6 +74,15 @@ group :development, :test do
 
   # A RuboCop extension for RSpec [https://github.com/rubocop/rubocop-rspec]
   gem 'rubocop-rspec', require: false
+
+  # Add simple validation for active storage [https://github.com/igorkasyanchuk/active_storage_validations]
+  gem 'active_storage_validations'
+
+  # Provides Rails integration for factory_bot [https://github.com/thoughtbot/factory_bot_rails]
+  gem 'factory_bot_rails'
+
+  # Generate fake data [https://github.com/faker-ruby/faker]
+  gem 'faker', '~> 3.2'
 end
 
 group :development do
@@ -85,6 +94,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Runtime developer console and IRB alternative [https://github.com/pry/pry]
+  gem 'pry'
 end
 
 group :test do
@@ -105,4 +117,10 @@ group :test do
 
   # Brings back assigns to your controller tests [https://github.com/rails/rails-controller-testing]
   gem 'rails-controller-testing'
+
+  # Encapsulating a variety of tools and libraries enabling web browser automation [https://github.com/SeleniumHQ/selenium]
+  gem 'selenium-webdriver', '~> 4.4'
+
+  # Run Selenium tests more easily [https://github.com/titusfortner/webdrivers]
+  gem 'webdrivers', '~> 5.0', require: false
 end
