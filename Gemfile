@@ -117,4 +117,7 @@ group :test do
 
   # Brings back assigns to your controller tests [https://github.com/rails/rails-controller-testing]
   gem 'rails-controller-testing'
+
+  # Encapsulating a variety of tools and libraries enabling web browser automation [https://github.com/SeleniumHQ/selenium]
+  gem 'selenium-webdriver', '~> 4.4'
 end
