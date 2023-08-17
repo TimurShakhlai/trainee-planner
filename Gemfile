@@ -48,7 +48,7 @@ gem 'bootsnap', require: false
 # gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-gem "image_processing", "~> 1.2"
+gem 'image_processing', '~> 1.2'
 
 # Bootstrap framework [https://github.com/twbs/bootstrap-rubygem]
 gem 'bootstrap', '~> 5.3.0.alpha3'
@@ -60,7 +60,7 @@ gem 'sass-rails'
 gem 'rails-i18n', '~> 7.0.0'
 
 # Authentication solution [https://github.com/heartcombo/devise]
-gem "devise"
+gem 'devise'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
