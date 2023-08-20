@@ -1,0 +1,19 @@
+name: RuboCop
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run prebuild steps
+        uses: ./.github/actions/prebuild
+
+      - name: Run RuboCop
+        run: bundle exec rubocop
